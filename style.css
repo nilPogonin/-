@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#markersLegend {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#markersLegend .remove-marker {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#distanceMatrix {
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#distanceMatrix th, #distanceMatrix td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#distanceMatrix th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
